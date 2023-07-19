@@ -1,0 +1,84 @@
+.container {  
+    min-height: 100vh;
+    color: #383838;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxTitle {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.sectionStyle {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxDataItem{
+    width: 33%;
+    padding: 60px;
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c0c0c0;
+    border-radius: 14px;
+    padding: 15px;
+    height: 130px;
+}
+
+.itemContainer:hover {
+    transform: scale(1.05);
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+}
+
+.itemTitle {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #ad0000;
+}
+
+.bodyStyle {
+    text-align: justify;
+}
+
+.containerPost {
+    background-color: #000000;
+    color: #c5c5c5;
+    border-radius: 14px;
+    padding: 25px;
+    margin: 120px 250px 150px 250px;
+}
+
+.titlePost {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #08dfdf;
+}
+
+.linkReturn {
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nextPrev {
+    display: flex;
+    padding: 70px;
+    font-weight: bold;
+}
+
+.prev {
+    text-align: left;
+    width: 50%;
+}
+
+.next {
+    text-align: right;
+    width: 50%;
+}
