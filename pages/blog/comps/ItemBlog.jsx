@@ -3,9 +3,12 @@ import styles from '../../../styles/StylePath.module.css'
 
 export default function ItemBlog({dataPost}) {
   
-  const dataIdTitle = () => {
+  const dataIdTitle = (num) => {
     try {
-      return [dataPost.id, dataPost.title];
+      if(num == 0)
+        return dataPost.id;
+      else
+        return dataPost.title;
     } catch (error) {
       console.log("Error en datapost: " + error)
     }
@@ -13,7 +16,7 @@ export default function ItemBlog({dataPost}) {
 
   return (
     <div className={styles.boxDataItem}>
-      {console.log((dataIdTitle())[1])}
+      {console.log(dataIdTitle(1))}
       <Link href={`/blog/2`}>
         <div className={styles.itemContainer}>
             <h3 className={styles.itemTitle}>2eddssdsdsdsdssdfer</h3>
