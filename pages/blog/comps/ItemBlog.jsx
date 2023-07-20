@@ -4,14 +4,14 @@ import styles from '../../../styles/StylePath.module.css'
 export default function ItemBlog({dataPost}) {
   try {
     const dataId = dataPost.id;
-    console.log(dataId);
+    const dataTitle = dataPost.title;
   } catch (error) {
-    console.log("error en datapost")
+    console.log("Error en datapost")
   }
 
   return (
     <div className={styles.boxDataItem}>
-      {console.log(dataPost)}
+      {console.log(dataId)}
       <Link href={"/blog/2"}>
         <div className={styles.itemContainer}>
             <h3 className={styles.itemTitle}>2eddssdsdsdsdssdfer</h3>
