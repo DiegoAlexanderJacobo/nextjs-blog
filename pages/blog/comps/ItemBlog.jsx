@@ -13,7 +13,7 @@ export default function ItemBlog({dataPost}) {
       {console.log(dataPost.id)}
       <Link href={"/blog/2"}>
         <div className={styles.itemContainer}>
-            <h3 className={styles.itemTitle}>2efer</h3>
+            <h3 className={styles.itemTitle}>2eddssdsdsdsdssdfer</h3>
         </div>
       </Link>
     </div>
