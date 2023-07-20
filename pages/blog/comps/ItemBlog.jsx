@@ -13,7 +13,7 @@ export default function ItemBlog({dataPost}) {
 
   return (
     <div className={styles.boxDataItem}>
-      {console.log(dataIdTitle())}
+      {console.log(dataIdTitle()[1])}
       <Link href={`/blog/2`}>
         <div className={styles.itemContainer}>
             <h3 className={styles.itemTitle}>2eddssdsdsdsdssdfer</h3>
