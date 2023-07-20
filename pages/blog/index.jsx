@@ -18,7 +18,7 @@ export default function index({data}) {
         <div className={styles.sectionStyle}>
             {data.map((dataItem) => {
             return (
-                <ItemBlog key={dataItem.id} dataPost={dataItem}/>
+                <ItemBlog dataPost={dataItem}/>
             )
             })}
         </div>
