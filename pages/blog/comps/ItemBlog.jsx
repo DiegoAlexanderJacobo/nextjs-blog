@@ -16,10 +16,9 @@ export default function ItemBlog({dataPost}) {
 
   return (
     <div className={styles.boxDataItem}>
-      {console.log(dataIdTitle(1))}
-      <Link href={`/blog/2`}>
+      <Link href={`/blog/${dataIdTitle(0)}`}>
         <div className={styles.itemContainer}>
-            <h3 className={styles.itemTitle}>2eddssdsdsdsdssdfer</h3>
+            <h3 className={styles.itemTitle}>{dataIdTitle(1)}</h3>
         </div>
       </Link>
     </div>
