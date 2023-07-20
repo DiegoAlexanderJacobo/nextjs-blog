@@ -2,9 +2,8 @@ import Link from 'next/link'
 import styles from '../../../styles/StylePath.module.css'
 
 export default function ItemBlog({dataPost}) {
-  const dataId = dataPost.id;
-
   try {
+    const dataId = dataPost.id;
     console.log(dataId);
   } catch (error) {
     console.log("error en datapost")
